@@ -5,7 +5,6 @@ const bcrypt=require('bcrypt');
 const dotenv=require('dotenv');
 const UserModel=require('./model/userModel.js')
 
-
 dotenv.config();
 const app=express();
 app.use(express.json());
